@@ -23,10 +23,10 @@ const Blogs = () => {
         </div>
         <div className='bookmarks-container'>
             <div className='spent-time-count'>
-            <h3>Spent time on read:</h3>
+            <h4>Spent time on read:</h4>
             </div>
         <div className='bookmarked-blogs'>
-        <h3>Bookmarked Blogs:</h3>
+        <h4>Bookmarked Blogs:</h4>
         </div>
         </div>
         </div>
