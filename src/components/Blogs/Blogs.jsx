@@ -1,8 +1,9 @@
 import React, { useEffect, useState } from 'react';
 import Blog from '../Blog/Blog';
 import Bookmark from '../Bookmark/Bookmark';
-
 import './Blogs.css'
+import { toast, ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 const Blogs = () => {
     const [blogs,setBlogs]=useState([]);
@@ -15,9 +16,15 @@ const Blogs = () => {
     }
     ,[]);
     const handleAddBookmark=(blog)=>{
-       // console.log(blog)
-        const newbookmarks=[...bookmarks,blog];
-        setBookmarks(newbookmarks);
+    bookmarks.find(bookmark=>{
+         if(bookmark._id===blog._id){
+            toast("This blog has been added multiple times!");
+  
+        }
+            
+    })
+    const newbookmarks=[...bookmarks,blog];
+    setBookmarks(newbookmarks);
     };
     const handleMarkAsRead=(blog)=>{
         const nowTotalReadTime=parseInt(blog.readTime);
@@ -46,7 +53,7 @@ const Blogs = () => {
             {
             bookmarks.map(bookmark=><Bookmark key={bookmark._id} bookmark={bookmark}></Bookmark>)
             }
-        
+      <ToastContainer />
         </div>
         </div>
         </div>
