@@ -1,0 +1,38 @@
+[
+    {
+      "_id": 1,
+      "authorName": "Mr. Mafujul",
+      "blogCoverImg": "https://images.unsplash.com/photo-1605379399642-870262d3d051?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1506&q=80",
+      "authorImg": "https://images.unsplash.com/photo-1556157382-97eda2d62296?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
+      "date": "Mar 14 (16 Days ago)",
+      "readTime": "05 min read",
+      "blogTitle": "How to get your first job as a self-taught programmer"
+    },
+    {
+      "_id": 2,
+      "authorName": "Mrs. Atika",
+      "blogCoverImg": "https://images.unsplash.com/photo-1534972195531-d756b9bfa9f2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
+      "authorImg": "https://plus.unsplash.com/premium_photo-1661645343248-230a3669f161?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80",
+      "date": "Mar 15 (15 Days ago)",
+      "readTime": "10 min read",
+      "blogTitle": "How to Debug Your JavaScript Code Like a Pro"
+    },
+    {
+      "_id": 3,
+      "authorName": "Mrs. Bala",
+      "blogCoverImg": "https://images.unsplash.com/photo-1562813733-b31f71025d54?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1469&q=80",
+      "authorImg": "https://images.unsplash.com/photo-1491349174775-aaafddd81942?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",
+      "date": "Mar 13 (17 Days ago)",
+      "readTime": "12 min read",
+      "blogTitle": "Using Git and GitHub for Collaborative Programming Projects"
+    },
+    {
+      "_id": 4,
+      "authorName": "Mr. Tarikul",
+      "blogCoverImg": "https://images.unsplash.com/photo-1537432376769-00f5c2f4c8d2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1025&q=80",
+      "authorImg": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
+      "date": "Mar 20 (10 Days ago)",
+      "readTime": "15 min read",
+      "blogTitle": "Creating Responsive Web Design with CSS Grid and Flexbox"
+    }
+  ]
