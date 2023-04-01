@@ -23,13 +23,13 @@ const Blog = (props) => {
             <div>
                 <p style={{display:'flex',alignItems:'center'}}>
                     {readTime} min read
-<FontAwesomeIcon onClick={()=>handleAddBookmark(props.blog)} style={{color:'gray',paddingLeft:'5px'}} icon={faBookmark}></FontAwesomeIcon>
+<FontAwesomeIcon className='hoverEffectBookmark' onClick={()=>handleAddBookmark(props.blog)} style={{paddingLeft:'8px',cursor: 'pointer'}} icon={faBookmark}></FontAwesomeIcon>
                 </p>
             </div>
         </div>
         <h3>{blogTitle}</h3>
         <p style={{paddingTop:'16px',paddingBottom:'16px'}}>#beginner #programming</p>
-        <p onClick={()=>handleMarkAsRead(props.blog)} style={{textDecoration:'underline',color:'#6047EC', cursor: 'pointer'}}>Mark as read</p>
+        <p onClick={()=>handleMarkAsRead(props.blog)} style={{textDecoration:'underline',color:'#6047EC', cursor: 'pointer'}} className="hoverEffectRead">Mark as read</p>
         
         <hr />
         </div>

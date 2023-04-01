@@ -14,3 +14,12 @@
    margin-top: 50px;
    margin-bottom: 20px;
 }
+.hoverEffectBookmark{
+    color: rgb(158, 157, 157);
+}
+.hoverEffectBookmark:hover{
+    color: rgb(90, 88, 88);
+}
+.hoverEffectRead:hover{
+font-weight: 500;
+}
