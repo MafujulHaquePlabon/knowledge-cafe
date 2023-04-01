@@ -6,6 +6,8 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 const Blog = (props) => {
  const {authorImg,authorName,blogCoverImg,blogTitle,date,readTime}=props.blog;
  const handleAddBookmark=props.handleAddBookmark;
+ const handleMarkAsRead=props.handleMarkAsRead;
+
     return (
         <div style={{marginBottom:'40px'}}>
         <img className='blog-cover-img' src={blogCoverImg} alt="" />
@@ -27,7 +29,8 @@ const Blog = (props) => {
         </div>
         <h3>{blogTitle}</h3>
         <p style={{paddingTop:'16px',paddingBottom:'16px'}}>#beginner #programming</p>
-        <a style={{textDecoration:'underline'}} href="">Mark as read</a>
+        <p onClick={()=>handleMarkAsRead(props.blog)} style={{textDecoration:'underline',color:'#6047EC', cursor: 'pointer'}}>Mark as read</p>
+        
         <hr />
         </div>
     );
